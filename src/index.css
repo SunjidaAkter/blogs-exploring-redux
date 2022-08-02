@@ -2,11 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 html {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background-color: white;
+  background-color: rgb(99, 99, 99);
   color: #000;
 }
 
@@ -28,7 +29,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: purple;
+  background-color: rgb(46, 36, 46);
   color: whitesmoke;
   position: sticky;
   top: 0;
@@ -60,7 +61,7 @@ nav a:focus {
 }
 
 main {
-  max-width: 500px;
+  max-width: 70%;
   margin: auto;
 }
 
@@ -112,6 +113,10 @@ textarea {
 .postCredit a:hover,
 .postCredit a:focus {
   color: hsla(0, 0%, 0%, 0.75);
+}
+
+.post {
+  background-color: rgb(201, 199, 199);
 }
 
 .excerpt {
